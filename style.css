@@ -1,0 +1,185 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 0.5rem 9.5rem 0.5rem 9.5rem;
+}
+
+.background-verde {
+    background-color: #02A28F;
+    color: white;
+}
+
+.container {
+    font-size: 2.0rem;
+}
+
+.posts {
+    width: 22.5rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    padding: 0.75rem 0 0.75rem 1.5rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;    
+}
+
+#banner > img {
+    width: 100vh;
+}
+
+.articleSideCardDetails{
+    gap: .5rem;
+}
+
+.articleSideCardDetails > p {
+    font-weight: 500;
+    line-height: 100%;
+    margin-left: 2em;
+    font-size: 12px;
+}
+
+.articleSideCardDetails > h5 {
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0 2rem .5rem 0.75rem;
+    font-size: 14px;
+}
+
+.sectionSideCard{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.articleSideCard {
+    width: 22.5rem;
+    box-shadow: 0px 12px 8px rgb(223, 223, 223);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-top: 1.25rem;
+    border-radius: 10px;
+    padding: .75rem;
+}
+
+.titleMain {
+    width: 43.5rem;
+    border-radius: 8px;
+    padding: 1rem  1.5rem 1rem 1.5rem;
+    margin-bottom: .7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleMain > h1 {
+    transform: translateY(1vh);
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #02A28F;
+}
+
+h2 {
+    font-size: 1.2rem;
+    width: 22.5rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #616161;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 0 0 1rem; 
+    color: #616161;
+}
+
+.texts > p {
+
+    font-weight: 400;
+    font-size: .8rem;
+    width: 20.5rem;
+}
+
+.card {
+    width: 22.5rem;
+    border-radius: 16px;
+    box-shadow: 0px 12px 8px rgb(223, 223, 223);
+}
+
+.cardPost {
+    width: 46.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: left;
+    gap: 1.5rem;
+}
+
+.texts {
+    margin: 0 .5rem 0 .5rem;
+}
+
+.texts > p , h2, h3{
+    margin: 0  0 .5rem;
+}
+
+.texts > h6{
+    margin: 1rem 0 .5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    columns: auto;
+}
+
+.titleList{
+    width: 22.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding: 1rem 1.5rem 1rem 0.6rem;
+}
+
+.titleList > h1 {
+    transform: translateY(1vh);
+}
+
+#names {
+    padding: 0;
+    list-style: none;
+}
+
+#number {
+    padding: 0;
+    list-style: none;
+}
+
+.cardsList{
+    width: 22.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 22.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.cardNameAndNumber {
+    width: 22.5rem;
+    display: flex;
+    justify-content: space-between;
+}
