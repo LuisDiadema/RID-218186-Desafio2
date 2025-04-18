@@ -1,23 +1,38 @@
-body {
+html {
+    width: 100%;
+    height: 100%;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    margin: 0.5rem 9.5rem 0.5rem 9.5rem;
+    
+}
+
+body {
+    margin: 0;
 }
 
 .background-verde {
     background-color: #02A28F;
     color: white;
+
 }
 
 .container {
+    margin: 0 9.5rem;
     font-size: 2.0rem;
+    margin: 0;
 }
 
 .posts {
-    width: 22.5rem;
+    width: 21.2rem;
     font-size: 1.25rem;
     border-radius: 10px;
     padding: 0.75rem 0 0.75rem 1.5rem;
+}
+
+#navBar {
+    margin: 0 9.5rem;
+    background-color: #02A28F;
+    padding: .8rem 0;
 }
 
 h1 {
@@ -25,7 +40,9 @@ h1 {
 }
 
 h5 {
-    margin: 0;    
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 700;    
 }
 
 #banner > img {
@@ -39,7 +56,7 @@ h5 {
 .articleSideCardDetails > p {
     font-weight: 500;
     line-height: 100%;
-    margin-left: 2em;
+    margin-left: 1em;
     font-size: 12px;
 }
 
@@ -50,14 +67,26 @@ h5 {
     font-size: 14px;
 }
 
+#banner > img {
+    width: 48.8rem;
+    margin: -1.3rem;
+    object-fit: contain;
+    cursor: pointer;
+}
+
 .sectionSideCard{
-    margin-top: 3rem;
+    margin: 3rem 9.5rem 0 9.5rem;
     display: flex;
     flex-direction: row;
+    gap: .6rem;
+}
+
+.sideCard {
+    margin: -.7rem 0 0 1.5rem;
 }
 
 .articleSideCard {
-    width: 22.5rem;
+    width: 21.2rem;
     box-shadow: 0px 12px 8px rgb(223, 223, 223);
     display: flex;
     flex-direction: row-reverse;
@@ -65,6 +94,7 @@ h5 {
     margin-top: 1.25rem;
     border-radius: 10px;
     padding: .75rem;
+    cursor: pointer;
 }
 
 .titleMain {
@@ -116,6 +146,7 @@ h3 {
     width: 22.5rem;
     border-radius: 16px;
     box-shadow: 0px 12px 8px rgb(223, 223, 223);
+    cursor: pointer;
 }
 
 .cardPost {
@@ -124,6 +155,7 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     justify-content: left;
     gap: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 .texts {
@@ -139,16 +171,17 @@ h3 {
 }
 
 .main {
+    margin: 0 9.5rem;
     display: flex;
     flex-direction: column;
     columns: auto;
 }
 
 .titleList{
-    width: 22.5rem;
+    width: 22.4rem;
     height: 3rem;
     border-radius: 10px;
-    padding: 1rem 1.5rem 1rem 0.6rem;
+    padding: 1rem 0rem 1rem 0.6rem;
 }
 
 .titleList > h1 {
@@ -179,7 +212,28 @@ h3 {
 }
 
 .cardNameAndNumber {
-    width: 22.5rem;
+    width: 22.8rem;
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    padding: 0.9rem 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer > h5 {
+    font-weight: 500;
+    font-size: .9rem;    
+}
+
+a {
+    text-decoration: none;
+    color: #616161;
+    cursor: pointer;
+}
+
+ul > li {
+    color: #616161;
 }
