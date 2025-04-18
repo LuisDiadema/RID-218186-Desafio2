@@ -23,6 +23,7 @@ body {
 }
 
 .posts {
+    margin: 0 0 1.5rem 0 ;
     width: 21.2rem;
     font-size: 1.25rem;
     border-radius: 10px;
@@ -45,10 +46,6 @@ h5 {
     font-weight: 700;    
 }
 
-#banner > img {
-    width: 100vh;
-}
-
 .articleSideCardDetails{
     gap: .5rem;
 }
@@ -67,22 +64,19 @@ h5 {
     font-size: 14px;
 }
 
-#banner > img {
-    width: 48.8rem;
-    margin: -1.3rem;
-    object-fit: contain;
+#banner {
     cursor: pointer;
+    width: 47.8rem;
+    height: 25.4rem;
+    transform: translateY(-10px);
+    background-image: url(./assets/bannerarticle.svg);
+    background-repeat: no-repeat;
 }
 
 .sectionSideCard{
-    margin: 3rem 9.5rem 0 9.5rem;
+    margin: 3.1rem 0rem 0 8.3rem;
     display: flex;
-    flex-direction: row;
-    gap: .6rem;
-}
-
-.sideCard {
-    margin: -.7rem 0 0 1.5rem;
+    gap: 1.5rem;
 }
 
 .articleSideCard {
@@ -236,4 +230,15 @@ a {
 
 ul > li {
     color: #616161;
+}
+
+@media (max-width: 768px) {
+    #navBar {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1.2rem 0;
+    }
+
+    #banner{
+    }
 }
