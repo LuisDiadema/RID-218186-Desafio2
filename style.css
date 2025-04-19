@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    display: grid;
     margin: 0;
 }
 
@@ -25,7 +24,7 @@ body {
 
 .posts {
     margin: 0 0 1.5rem 0 ;
-    width: 21.2rem;
+    width: 23.3rem;
     font-size: 1.25rem;
     border-radius: 10px;
     padding: 0.75rem 0 0.75rem 1.5rem;
@@ -104,6 +103,7 @@ h5 {
 }
 
 .titleMain > h1 {
+    margin: 0;
     transform: translateY(1vh);
     font-size: 1.5rem;
 }
@@ -183,6 +183,7 @@ h3 {
 }
 
 .titleList > h1 {
+    margin: 0;
     transform: translateY(1vh);
 }
 
@@ -243,15 +244,33 @@ ul > li {
         padding: 1.2rem 0;
     }
 
+    body {
+        margin: 0 0.5rem;
+    }
+
     #banner{
-        width: 23.5rem;
+        width: 26.5rem;
         background-image: url(./assets/bannerArticleMobile.svg);
         justify-content: center;
+        transform: translateX(-3px);
     }
 
     .sectionSideCard {
-        padding: 1.5rem 0.5rem 0 .5rem;
+        padding-top: 1.5rem;
         margin: 0;
+        width: 23.6rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .sideCard {
+        width: 24.9rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -260,9 +279,9 @@ ul > li {
     .posts {
         font-size: 1.2rem;
         font-weight: 700;
-        width:24.5rem;
+        width: 22.9rem;
         height: 2.5rem;
-        padding: 0.5rem 1rem .5rem 1rem;
+        padding: 0.9rem 1rem 0 1rem;
         margin-bottom: 1.6rem;
         text-align: center;
     }
@@ -270,24 +289,28 @@ ul > li {
     .titleMain {
         font-size: 1.2rem;
         font-weight: 500;
-        width:24.5rem;
+        width: 21rem;
         height: 2.5rem;
         padding: 0.5rem 1rem .5rem 1rem;
         margin: 1.5rem 0 1.6rem 0;
-    }
+        }
 
     .titleMain, a  {
         font-size: .8rem;
         font-weight: 400;
     }
 
+    .articleSideCard {
+        width: 29.9rem;
+        height: 5rem;
+    }
 
     .cardPost {
-        justify-content: center;
-        width: 26.5rem;
+        width: 23rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: left;
     }
 
     .cards {
@@ -304,9 +327,15 @@ ul > li {
     }
 
     .main {
-        width: 22.5rem;
+        width: 23rem;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    }
+
+    .titleList {
+        width: 22.5rem;
+    }
+
+    .cardNameAndNumber {
+        width: 23rem;
     }
 }
