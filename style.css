@@ -24,7 +24,7 @@ body {
 
 .posts {
     margin: 0 0 1.5rem 0 ;
-    width: 23.3rem;
+    width: auto;
     font-size: 1.25rem;
     border-radius: 10px;
     padding: 0.75rem 0 0.75rem 1.5rem;
@@ -116,7 +116,7 @@ h6 {
 
 h2 {
     font-size: 1.2rem;
-    width: 22.5rem;
+    width: 10.5rem;
 }
 
 h3 {
@@ -241,18 +241,15 @@ ul > li {
     #navBar {
         font-size: 1.5rem;
         text-align: center;
-        margin: auto;
-    }
-
-    body {
-        margin: 0 0.5rem;
+        margin: 0;
     }
 
     #banner{
-        width: 26.5rem;
+        width: 23.6rem;
         background-image: url(./assets/bannerArticleMobile.svg);
         justify-content: center;
-        transform: translateX(-3px);
+        transform: translateX(-7px);
+        
     }
 
     .sectionSideCard {
@@ -267,13 +264,14 @@ ul > li {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin: 0 0.5rem;
     }
 
     .sideCard {
         width: 23.6rem;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content:flex-end;
     }
 
     .posts {
@@ -325,7 +323,7 @@ ul > li {
 
     .main {
         width: auto;
-        margin: auto;
+        margin: auto 0.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
