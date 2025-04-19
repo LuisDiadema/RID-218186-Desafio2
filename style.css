@@ -241,7 +241,7 @@ ul > li {
     #navBar {
         font-size: 1.5rem;
         text-align: center;
-        padding: 1.2rem 0;
+        margin: auto;
     }
 
     body {
@@ -270,7 +270,7 @@ ul > li {
     }
 
     .sideCard {
-        width: 24.9rem;
+        width: 23.6rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -279,7 +279,7 @@ ul > li {
     .posts {
         font-size: 1.2rem;
         font-weight: 700;
-        width: 22.9rem;
+        width: 21.6rem;
         height: 2.5rem;
         padding: 0.9rem 1rem 0 1rem;
         margin-bottom: 1.6rem;
@@ -307,18 +307,15 @@ ul > li {
 
     .cardPost {
         width: 23rem;
+        margin: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: left;
     }
 
-    .cards {
-        width: 23rem;
-        align-items: center;
-    }
-    
     .card {
+        margin: 0;
         width: 23rem;
     }
 
@@ -327,8 +324,16 @@ ul > li {
     }
 
     .main {
-        width: 23rem;
+        width: auto;
+        margin: auto;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 23rem;
+        align-items: center;
     }
 
     .titleList {
