@@ -242,6 +242,8 @@ a {
 }
 
 ul > li {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
     color: #616161;
 }
 
@@ -356,7 +358,6 @@ ul > li {
     }
 
     li {
-        font-weight: 600;
         margin-bottom: 0.8rem;
     }
 
