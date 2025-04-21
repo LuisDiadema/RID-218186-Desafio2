@@ -47,6 +47,10 @@ h5 {
     font-weight: 700;    
 }
 
+.sideCard {
+    display: none;
+}
+
 .articleSideCardDetails{
     gap: .5rem;
 }
@@ -75,6 +79,7 @@ h5 {
 }
 
 .sectionSideCard{
+    width: auto;
     margin: 3.1rem 0rem 0 8.3rem;
     display: flex;
     gap: 1.5rem;
@@ -86,7 +91,7 @@ h5 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
-    margin-top: 1.25rem;
+
     border-radius: 10px;
     padding: .75rem;
     cursor: pointer;
@@ -178,7 +183,7 @@ h3 {
     width: 22.4rem;
     height: 3rem;
     border-radius: 10px;
-    padding: 1rem 0rem 1rem 0.6rem;
+    padding: 0.4rem 0rem 0.4rem 0.6rem;
     box-shadow: 0px 12px 8px rgb(223, 223, 223);
 }
 
@@ -198,7 +203,7 @@ h3 {
 }
 
 .cardsList{
-    width: 22.5rem;
+    width: 23.1rem;
     display: flex;
     flex-direction: column;
 }
@@ -249,7 +254,7 @@ ul > li {
         background-image: url(./assets/bannerArticleMobile.svg);
         justify-content: center;
         transform: translateX(-7px);
-        
+        order: 1;
     }
 
     .sectionSideCard {
@@ -267,13 +272,17 @@ ul > li {
         margin: 0 0.5rem;
     }
 
+    .sideCard1 {
+        display: none;
+    }
+    
     .sideCard {
         width: 23.6rem;
         display: flex;
         flex-wrap: wrap;
         justify-content:flex-end;
+        order: 3;
     }
-
     .posts {
         font-size: 1.2rem;
         font-weight: 700;
@@ -340,5 +349,13 @@ ul > li {
 
     .cardNameAndNumber {
         width: 23rem;
+    }
+
+    .cardsList {
+        order: 3;
+    }
+
+    .mobile1 {
+        order: 1;
     }
 }
